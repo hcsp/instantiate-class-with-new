@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.github.hcsp.pet.Cat;
 import org.junit.jupiter.api.Test;
 
-public class MainTest {
+public class HomeTest {
     @Test
     public void testNewCat() {
-        assertTrue(Main.newCat() instanceof Cat);
+        assertTrue(Home.newCat() instanceof Cat);
     }
 }
