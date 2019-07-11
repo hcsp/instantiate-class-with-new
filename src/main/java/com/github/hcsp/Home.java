@@ -12,6 +12,9 @@ public class Home {
     }
 
     public static Cat newCat() {
+        Home cat1=new Home();
+        cat1.cat = null;
+        return cat1.cat;
         // Create a new Cat instance and return it here
         // 在这里创建一个新的Cat实例并返回之
     }
