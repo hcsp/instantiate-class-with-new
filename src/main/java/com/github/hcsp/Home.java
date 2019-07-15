@@ -11,8 +11,9 @@ public class Home {
         System.out.println(cat);
     }
 
-    public static Cat newCat() {
+    private static Cat newCat() {
         // Create a new Cat instance and return it here
         // 在这里创建一个新的Cat实例并返回之
+        return new Cat();
     }
 }
