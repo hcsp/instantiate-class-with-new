@@ -1,6 +1,7 @@
 package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
+import java.lang.reflect.Method;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
