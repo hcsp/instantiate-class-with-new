@@ -8,6 +8,7 @@ public class Home {
     public static void main(String[] args) {
         System.out.println(cat);
         cat = newCat();
+
         System.out.println(cat);
     }
 
