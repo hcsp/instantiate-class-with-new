@@ -13,8 +13,6 @@ public class Home {
 
     public static Cat newCat() {
         // Create a new Cat instance and return it here
-        // 在这里创建一个新的Cat实例并返回
-        Cat cat = new Cat();
-        return cat;
+        // 在这里创建一个新的Cat实例并返回之
     }
 }
