@@ -4,6 +4,7 @@ import com.github.hcsp.pet.Cat;
 
 public class Home {
     private static Cat cat;
+    private static Cat newCat;
 
     public static void main(String[] args) {
         System.out.println(cat);
@@ -14,5 +15,6 @@ public class Home {
     public static Cat newCat() {
         // Create a new Cat instance and return it here
         // 在这里创建一个新的Cat实例并返回之
+        return newCat;
     }
 }
