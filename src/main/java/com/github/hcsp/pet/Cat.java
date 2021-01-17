@@ -1,5 +1,5 @@
 package com.github.hcsp.pet;
 
 public class Cat {
-    public Cat (){ }
+//    public Cat (){ }
 }
