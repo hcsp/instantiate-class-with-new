@@ -2,6 +2,9 @@ package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
 
+/**
+ * @author 93469
+ */
 public class Home {
     private static Cat cat;
 
@@ -14,5 +17,6 @@ public class Home {
     public static Cat newCat() {
         // Create a new Cat instance and return it here
         // 在这里创建一个新的Cat实例并返回之
+      return new Cat();
     }
 }
