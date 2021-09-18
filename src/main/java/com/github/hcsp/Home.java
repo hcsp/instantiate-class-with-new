@@ -4,7 +4,6 @@ import com.github.hcsp.pet.Cat;
 
 public class Home {
     private static Cat cat;
-    private static Cat cat1;
 
     public static void main(String[] args) {
         System.out.println(cat);
