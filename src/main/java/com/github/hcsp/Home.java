@@ -15,6 +15,7 @@ public class Home {
         // Create a new Cat instance and return it here
         // 在这里创建一个新的Cat实例并返回之
        Cat c = new Cat();
+
        return c;
     }
 }
